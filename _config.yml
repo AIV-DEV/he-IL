@@ -1,7 +1,7 @@
 title: A.I.V Dev
 name: אשי ורד
 email: ashivered.apps@gmail.com
-description: אני אשי ורד,  ישראלי, לומד בישיבה, פעיל מפלגת נעם, ומפתח - בעיקר מפתח לAndroid (אפליקציות וקושחואות מקוסטמות). בבלוג שלי אני משתף חוויות ומחשבות, כמפתח וכאדם.
+description: אני אשי ורד,  לומד בישיבה, פעיל מפלגת נעם, ומפתח - בעיקר מפתח לAndroid (אפליקציות וקושחואות מקוסטמות). בבלוג שלי אני משתף חוויות ומחשבות, כמפתח וכאדם.
 
 baseurl: "/blog"
 url: ""
@@ -23,14 +23,14 @@ project_two_icon: photo_camera
 
 
 project_three: "Android custom ROMs"
-project_three_description: Collection of my Android custom ROMs, guides and files.
+project_three_description: אוסף של קושחות Android שערכתי, מדריכים וקבצים..
 project_three_url: https://github.com/AshiVered/Android-custom-ROMs
 project_three_icon: hotel
 
 
-project_four: Fourth Project
-project_four_description: Describe your project!
-project_four_url: https://github.com/jameshamann/jekyll-material-theme
+project_four: "דפדפן מוגן"
+project_four_description: דפדפן המאפשר גישה רק לאתרים שאישרתי מראש, עבור Android. זהו בעצם קליינט Webview, שתומך בהורדת קבצים, ויכול לגשת רק לURLים שהוגדרו מראש בקוד
+project_four_url: https://github.com/AshiVered/Android-safe-browser
 project_four_icon: restaurant
 
 portfolio_heading: מתוך הפרוייקטים שלי
