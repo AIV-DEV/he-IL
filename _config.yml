@@ -12,12 +12,12 @@ parallax_image_one: assets/images/startup3.jpg # These are the images used for t
 parallax_image_two: assets/images/startup3.jpg
 
 project_one: "SkyOS"
-project_one_description: SkyOS is a custom ROM for Nokia 800 Tough. The ROM is designed to improve speed and user experience. It's based on v40 firmware and it is now in the public alpha phase (0.1).
+project_one_description: SkyOS הוא קושחה מקוסטמת עבור Nokia 800 Tough. התמקדתי בממשק נוח ומהיר יותר. הפרוייקט מבוסס על קושחה V40 הרשמית, ונמצא בשלב אלפא.
 project_one_url: https://github.com/AshiVered/SkyOS
 project_one_icon: location_on
 
 project_two: "CobaltTranscriber"
-project_two_description: CobaltTranscriber is a simple tool to make using FasterWhisper easier. This is a pre-alpha release, because I hope to write real GUI software at some point, and the script is the result of work to get familiar with the tool.
+project_two_description: CobaltTranscriber הוא כלי די פשוט, שנועד להקל על השימוש בFasterWhisper. הפרוייקט נמצא כרגע בגרסא התחלתית מאוד, אפילו לא אלפא, כי אני רוצה לכתוב תוכנת עם ממשק גרפי אמיתי. הסקריפט הוא בסך הכל תוצר של היכרות עם הכלי.
 project_two_url: https://github.com/AshiVered/Cobalt-Scripts/tree/main/CobaltTranscriber
 project_two_icon: photo_camera
 
@@ -33,7 +33,7 @@ project_four_description: Describe your project!
 project_four_url: https://github.com/jameshamann/jekyll-material-theme
 project_four_icon: restaurant
 
-portfolio_heading: Portfolio
+portfolio_heading: מתוך הפרוייקטים שלי
 portfolio_type: cards
 
 syntax_highlighting: true
