@@ -1,0 +1,89 @@
+title: A.I.V Dev
+name: Ashi Vered
+email: ashivered.apps@gmail.com
+description: My name is Ashi Vered. I live in Israel, an activist of the Noam party, and a developer - mainly an Android developer (apps and custom ROMs). In my blog I share my experiences and thoughts as a developer and as a person.
+
+baseurl: "/blog"
+url: ""
+
+display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
+
+parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/startup3.jpg
+
+project_one: "SkyOS"
+project_one_description: SkyOS is a custom ROM for Nokia 800 Tough. The ROM is designed to improve speed and user experience. It's based on v40 firmware and it is now in the public alpha phase (0.1).
+project_one_url: https://github.com/AshiVered/SkyOS
+project_one_icon: location_on
+
+project_two: "CobaltTranscriber"
+project_two_description: CobaltTranscriber is a simple tool to make using FasterWhisper easier. This is a pre-alpha release, because I hope to write real GUI software at some point, and the script is the result of work to get familiar with the tool.
+project_two_url: https://github.com/AshiVered/Cobalt-Scripts/tree/main/CobaltTranscriber
+project_two_icon: photo_camera
+
+
+project_three: "Android custom ROMs"
+project_three_description: Collection of my Android custom ROMs, guides and files.
+project_three_url: https://github.com/AshiVered/Android-custom-ROMs
+project_three_icon: hotel
+
+
+project_four: Fourth Project
+project_four_description: Describe your project!
+project_four_url: https://github.com/jameshamann/jekyll-material-theme
+project_four_icon: restaurant
+
+portfolio_heading: Portfolio
+portfolio_type: cards
+
+syntax_highlighting: true
+# Skill icons from https://konpa.github.io/devicon/
+
+skills:
+  - name: android
+  - name: edge
+    uri: https://upload.wikimedia.org/wikipedia/commons/f/f6/Edge_Logo_2019.svg
+  - name: git
+  - name: github
+  - name: gradle
+  - name: java
+  - name: linux
+  - name: python
+  - name: pycharm
+  - name: visualstudio
+  - name: lineageos
+  - name: windows8
+  - name: wordpress
+  - name: android studio
+    uri: https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Android_Studio_Logo_%282023%29.svg/1024px-Android_Studio_Logo_%282023%29.svg.png
+
+
+icon_size: 50 # font-size of icons in px
+colored: colored # Leave blank for black and white icons
+
+project_button: Github
+
+github: https://github.com/AshiVered
+XDA: https://xdaforums.com/m/a9381.11833283/
+MITM: https://mitmachim.top/user/%D7%9E%D7%99%D7%A9%D7%94%D7%9512
+
+baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
+url: http://localhost:4000/ #the url of your site
+# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
+tag_manager_id: # This looks something like GTM-XXXXXXX
+google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
+
+cookie_accept_message: Thanks!
+
+syntax_highlighting: true # include the css for syntax highlighting
+
+# Build settings
+markdown: kramdown
+# theme: minima
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-minifier
