@@ -16,12 +16,12 @@ Multi APK Tool הוא כלי לחילוץ ועריכת כמה קבצי APK בב�
 זה לא מושלם, אבל בהחלט מספיק טוב עבורי.
 
 אני מקווה שגם עבורכם זה יהיה יעיל.
-ראו [כאן](https://github.com/AshiVered/APK-Multi-Tool)
+ראו [כאן.](https://github.com/AshiVered/APK-Multi-Tool)
 
 
 **עדכון 16.01.2024**
 
-יצרתי אוסף של כל הסקריפטים שלי, כאן,, [Cobalt Scripts](https://github.com/AshiVered/Cobalt-Scripts).
+יצרתי אוסף של כל הסקריפטים שלי, כאן, [Cobalt Scripts](https://github.com/AshiVered/Cobalt-Scripts).
 גם הסקריפט הזה הועבר לשם וקיבל שם חדש.
 [Cobalt ApkTool](https://github.com/AshiVered/Cobalt-Scripts/tree/main/Cobalt-ApkTool).
 
