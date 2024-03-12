@@ -29,7 +29,7 @@ project_three_icon: hotel
 
 
 project_four: "דפדפן מוגן"
-project_four_description: דפדפן המאפשר גישה רק לאתרים שאישרתי מראש, עבור Android. זהו בעצם קליינט Webview, שתומך בהורדת קבצים, ויכול לגשת רק לURLים שהוגדרו מראש בקוד
+project_four_description: דפדפן המאפשר גישה רק לאתרים שאישרתי מראש, עבור Android. זהו בעצם קליינט Webview, שתומך בהורדת קבצים, ויכול לגשת רק לURLים שהוגדרו מראש בקוד.
 project_four_url: https://github.com/AshiVered/Android-safe-browser
 project_four_icon: restaurant
 
@@ -75,7 +75,7 @@ google_analytics_tracking_id: # This looks something like UA-000000000-0 Head ov
 
 cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
 
-cookie_accept_message: Thanks!
+cookie_accept_message: תודה!
 
 syntax_highlighting: true # include the css for syntax highlighting
 
