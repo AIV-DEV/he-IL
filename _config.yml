@@ -38,6 +38,7 @@ portfolio_type: cards
 
 syntax_highlighting: true
 # Skill icons from https://konpa.github.io/devicon/
+comments: true
 
 skills:
   - name: android
