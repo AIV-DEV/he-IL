@@ -32,8 +32,9 @@ Garmin forerunner 745 הוא שעון ספורט, עם פונקציות חכמו
 
 זה נחמד. זה אומר שיש מצב מפתח שמאפשר Sideloading של אפליקציות לא רשמיות, כמובן...
 
-באמת מצאתי [תיעוד רשמי על פיתוח וsideloading של אפליקציות](https://developer.garmin.com/connect-iq/connect-iq-basics/your-first-app/) them.
+באמת מצאתי [תיעוד רשמי על פיתוח וsideloading של אפליקציות](https://developer.garmin.com/connect-iq/connect-iq-basics/your-first-app/).
 
 זה כבר מעניין..
 
 בעזרת ה' יהיו עדכונים בהמשך.
+
