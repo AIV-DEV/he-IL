@@ -61,7 +61,7 @@ skills:
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
 
-project_button: Github
+project_button: הצג
 
 github: https://github.com/AshiVered
 XDA: https://xdaforums.com/m/a9381.11833283/
