@@ -16,9 +16,9 @@ project_one_description: SkyOS הוא קושחה מקוסטמת עבור Nokia 8
 project_one_url: https://github.com/AshiVered/SkyOS
 project_one_icon: location_on
 
-project_two: "CobaltTranscriber"
-project_two_description: CobaltTranscriber הוא כלי די פשוט, שנועד להקל על השימוש בFasterWhisper. הפרוייקט נמצא כרגע בגרסא התחלתית מאוד, אפילו לא אלפא, כי אני רוצה לכתוב תוכנת עם ממשק גרפי אמיתי. הסקריפט הוא בסך הכל תוצר של היכרות עם הכלי.
-project_two_url: https://github.com/AshiVered/Cobalt-Scripts/tree/main/CobaltTranscriber
+project_two: "CobaltSoftwares"
+project_two_description:  Cobalt Softwares הוא אוסף תוכנות שפיתחתי (לרוב בPython, ועם הרבה עזרה מAI), מדובר בתוכנות קטנות ופשוטות אך שימושיות. 
+project_two_url: https://aiv-dev.com/CobaltSoftwaresHE/
 project_two_icon: photo_camera
 
 
