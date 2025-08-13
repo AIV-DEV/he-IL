@@ -3,8 +3,7 @@ layout: post
 title: Reversing&Patching לאפליקציית הIR בQin F22Pro
 ---
 
-במכשירQin F22Pro יש אפליקציית שלט IR (למשל, למזגנים או טלוויזיות חכמות) מובנית מראש. הבעיה היא, שאם עושים root ומוחקים חלק מהBloatware שהיצרן הכניס לקושחה – אפליקציית הIR לא עובדת יותר, בכניסה אליה מוצגת שגיאה "System environment error!" ומיד האפליקציה נסגרת.
-
+במכשיר Qin F22Pro יש אפליקציית שלט IR (למשל, למזגנים או טלוויזיות חכמות) מובנית מראש. הבעיה היא, שאם עושים root ומוחקים חלק מהBloatware שהיצרן הכניס לקושחה – אפליקציית הIR לא עובדת יותר, בכניסה אליה מוצגת שגיאה "System environment error!" ומיד האפליקציה נסגרת.
 אז החלטתי לפצח את ההגנה הזו ולערוך את האפליקציה ככה שתעבוד בכל מקרה.
 
 אני אשתמש לשם כך באפליקציית MT Manager לעריכה והנדסה לאחור של אפליקציות, יש לי משתמש פרימיום באפליקציה שעולה כ20$ לכל החיים – שווה כל דולר, בעיני.
@@ -29,6 +28,7 @@ title: Reversing&Patching לאפליקציית הIR בQin F22Pro
 
 חיפשתי את הid הרלוונטי בקובץ הjava ומצאתי את המחלקה הבאה:
 
+```
     private void h() {
 
         Toast.makeText((Context) this, 0x7f0a004a, 1).show();
@@ -38,6 +38,7 @@ title: Reversing&Patching לאפליקציית הIR בQin F22Pro
         finish();
 
     }
+```
 
 מה קורה כאן בעצם?
 
@@ -51,9 +52,11 @@ title: Reversing&Patching לאפליקציית הIR בQin F22Pro
 
 עוד נקודה שחשוב לשים אליה לב היא, שבמחלקה כאן לא מתבצעת הבדיקה עצמה. רק מתבצעות פקודות מסויימות לאחר שהבדיקה כבר התבצעה. אז החלטתי לבטל את פקודת הFinish, ושאלתי את ChatGPT איך לעשות את זה בSmali (קוד הJava שמתקבל בתהליך הSmalii2Java לא ניתן לקימפול חוזר). הוא אמר למחוק את השורה הזו בתוך המחלקה h.
 
-`.line 347`
+```
+.line 347
 
-`invoke-virtual {p0}, Lcom/duoqin/remote/activity/RemoteActivity;->finish()V`
+invoke-virtual {p0}, Lcom/duoqin/remote/activity/RemoteActivity;->finish()V
+```
 
 אז מחקתי את השורה, שמרתי את השינויים והכנסתי את הקובץ הערוך למכשיר.
 
@@ -63,6 +66,7 @@ title: Reversing&Patching לאפליקציית הIR בQin F22Pro
 
 ומיד אחרי הOnCreate, מתבצעת בדיקה מה הערך של i. אם הוא False, כל הLayouts לא נטענים בכלל.
 
+```
         if (i()) {
 
             if (RemoteApp.b()) {
@@ -74,11 +78,13 @@ title: Reversing&Patching לאפליקציית הIR בQin F22Pro
                 setContentView(0x7f070000);
 
             }
+```
 
 (אין אחרי זה כלל else שמסביר מה לעשות אם i הוא False.)
 
 אפשר היה כמובן לבטל את הבדיקה הזו, אבל אני העדפתי שהבדיקה פשוט תמיד תחזיר True. אז נסתכל על קוד הJava של המשתנה i.
 
+```
     private boolean i() {
 
         int i;
@@ -256,6 +262,7 @@ title: Reversing&Patching לאפליקציית הIR בQin F22Pro
         return true;
 
     }
+```
 
 וואוו. יש פה המון בדיקות!
 
