@@ -290,7 +290,7 @@ invoke-virtual {p0}, Lcom/duoqin/remote/activity/RemoteActivity;->finish()V
 
 שני קבצי הAPK, וקבצי הקוד שהעתקתי, זמינים בRepo הרלוונטי בגיטהאב שלי.
 
-[https://github.com/AshiVered/DouqinRemote_Hack](https://github.com/AshiVered/DouqinRemote_Hack)
+[https://github.com/AshiVered/DouqinRemote_Patch](https://github.com/AshiVered/DouqinRemote_Patch)
 
 הערה קטנה לסיום:
 
