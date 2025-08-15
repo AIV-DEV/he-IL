@@ -12,7 +12,7 @@ title: 20 שנה לגירוש
 <img src="https://aiv-dev.com/he-IL/assets/images/Pinui-netzarim01.jpeg" width="75%" />
 
 
-<span style="font-size:0.4em;">קרדיט לתמונה: *מאת דובר צה"ל, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=94449223*</span>
+<span style="font-size:0.8em;">קרדיט לתמונה: *מאת דובר צה"ל, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=94449223*</span>
 
 אפשר לדבר הרבה על נימוקים בטחוניים נגד מסירת שטחים לאוייב, אפשר להביא הוכחות מכאן ועד הודעה חדשה. מספיק להסתכל ולראות מה היו התוצאות של הסכמי אוסלו לשלביהם, של הנסיגה מרצועת הביטחון שאפשרה את התעצמות חיזבאללה, ושל ההתנתקות.
 
