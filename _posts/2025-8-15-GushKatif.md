@@ -4,13 +4,12 @@ title: 20 שנה לגירוש
 ---
 
 הבלוג הזה, כידוע לכל מי שעוקב, הוא בלוג טק. אני כותב פה על טכנולוגיה, במיוחד בהקשר של מובייל.
-
 אבל הפעם אחרוג ממנהגי, כי בחודש הזה אנחנו מציינים 20 שנה לאירוע חמור, שאת תוצאותיו אנחנו משלמים עד היום. גירוש גוש קטיף, או בשם המכובס – תוכנית ההתנתקות.
 
 
 
 
-<img src="https://aiv-dev.com/he-IL/assets/images/Pinui-netzarim01.jpeg" width="120%" />
+<img src="https://aiv-dev.com/he-IL/assets/images/Pinui-netzarim01.jpeg" width="75%" />
 
 
 <span style="font-size:0.4em;">קרדיט לתמונה: *מאת דובר צה"ל, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=94449223*</span>
