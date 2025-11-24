@@ -6,7 +6,7 @@ title: רשתות דור 2 ו3 נסגרות. מה זה אומר?
 לפני כמה ימים פורסם שאדם באוסטרליה מת לאחר שניסה להתקשר לשירותי החירום מטלפון שהיה לכאורה תקין ומחובר לרשת, ולא הצליח. איך זה קשור אלינו?
 
 
-<img src="https://aiv-dev.com/he-IL/assets/images/AustralyOldNetwork.jpg" width="25%" />
+<img src="https://aiv-dev.com/he-IL/assets/images/AustralyOldNetwork.jpg" width="50%" />
 
 *The Guardian - צילום מסך*
 
