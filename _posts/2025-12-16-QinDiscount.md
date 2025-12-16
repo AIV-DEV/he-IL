@@ -14,7 +14,7 @@ title: הנחה ברכישת מכשירי Qin
 **1. קניה מהחנות הספציפית הזו**
 Qin Global store
 
-https://he.aliexpress.com/store/912424639
+[https://he.aliexpress.com/store/912424639](https://he.aliexpress.com/store/912424639)
 
 **2. רשימת המכשירים שבהנחה וההנחה על כל אחד מהם**
 
@@ -40,7 +40,7 @@ https://he.aliexpress.com/store/912424639
 
 לפי ההסכם שלי עם המוכר, אני מקבל הנחות לפי מספר הקונים שאביא. אבל מה לעשות שאין לי אמון מוחלט בו... אז אשמח שכל מי שיקנה עם ההנחה הזו ימלא את הטופס הבא, כדי שיהיה רשום גם אצלי.
 
-https://forms.gle/K2YLxAVg9ufJNsZFA
+[https://forms.gle/K2YLxAVg9ufJNsZFA](https://forms.gle/K2YLxAVg9ufJNsZFA)
 
 כמובן, מי שימלא שם סתם רק יגרום לי בלאגן ונזק! ולעומת זאת, גם מי שיקנה ולא ימלא - אני עלול להפסיד...
 אז אשמח שתמלאו בדיוק ורק אם קניתם.
